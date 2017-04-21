@@ -15,5 +15,5 @@ grant all privileges on database java_database to jdbc_user;
 
 create table cats(id serial primary key, name text, color text);
 
-grant all privileges on all tables in schema public to jdbc_user;
+grant all privileges on all tables in schema public to jdbc_user;  
 grant all privileges on all sequences in schema public to jdbc_user;
